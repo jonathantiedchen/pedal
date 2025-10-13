@@ -97,7 +97,7 @@ def process_file(path_in, path_out, drive=2.5):
     # Apply Wow & Flutter
     wf = wow_flutter(audio, fs)
 
-    # Apply Failure
+    # Apply Failure‚
     fail = failure(wf, fs)
 
     # Apply Saturation
@@ -119,4 +119,4 @@ def process_file(path_in, path_out, drive=2.5):
 # ===============================
 
 if __name__ == "__main__":
-    process_file("input.wav", "output_genloss.wav")
+    process_file("synth‚.wav", "output_genloss.wav")
